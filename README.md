@@ -6,25 +6,25 @@ I understand, you want to learn what are the Basic Functions that are available 
 
 1. print
   The print function is a must-know function. It outputs a value onto the screen.<br>
-  ##Syntax:<br>
+  <h2>Syntax:<h2><br>
   print <- [what_to_print]<br>
-  ##Example:<br>
+  <h2>Example:<h2><br>
   print <- "Hello world"<br>
 2. input
   The input function is also a must-know function. It asks the user for an input, then gets the value and assigns it to a variable<br>
-  ##Syntax:<br>
+  <h2>Syntax:<h2><br>
   input -> [what_to_input] [variable]<br>
-  ##Example:<br>
+  <h2>Example:<h2><br>
   input -> "What is your name? " [name]<br>
 3. exit
   The exit function is a function that makes you literally exit the program.<br>
-  ##Syntax:<br>
+  <h2>Syntax:<h2><br>
   exit<br>
-  ##Example:<br>
+  <h2>Example:<h2><br>
   exit<br>
 4. system
   The system function is a function that runs a command in the terminal.<br>
-  ##Syntax:<br>
+  <h2>Syntax:<h2><br>
   system [command]<br>
-  ##Example:<br>
+  <h2>Example:<h2><br>
   system "echo \"Hello world!\"<br>
