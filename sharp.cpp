@@ -32,7 +32,9 @@ vector<char> code_wrappers {
     '\"',
     '\'',
     '(',
-    ')'
+    ')',
+    '[',
+    ']'
 };
 // code keys
 vector<string> code_keys{
@@ -189,7 +191,7 @@ vector<vector<string>> lexer(vector<string> tokens)
                 // break the loop
                 break;
             }
-            // check if it is a part of code data
+            // check if it is a part of code wrappers
             else if (find(code_wrappers.begin(), code_wrappers.end(), tokens[i][0]) != code_wrappers.end())
             {
                 // add it to the lexes
